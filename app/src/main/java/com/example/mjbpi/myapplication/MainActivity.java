@@ -7,10 +7,15 @@ public class MainActivity extends AppCompatActivity {
 
     // intitial state
     // test
-    
+
+
+    private String test = "test";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        int fünf = 5;
+        int zehn = fünf * 2;
     }
 }
